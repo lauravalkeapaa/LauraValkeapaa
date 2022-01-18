@@ -1,0 +1,42 @@
+body {
+    color:#bb1b5e;
+    background-color: rgb(206, 234, 241);
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(136, 20, 59);
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(139, 34, 48);
+    width: fit-content;
+    margin:0 auto
+}
+
+a:link {
+    color: rgb(170, 48, 48);
+  }
+  
+  a:visited {
+    color: rgb(192, 38, 51);
+    text-decoration: line-through;
+  }
+  
+  a:hover {
+    color: rgb(18, 25, 82);
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(153, 36, 46);
+  }
+
+img {
+    color: rgb(116, 19, 59);
+    border: 1px solid rgb(148, 15, 37);
+    width: fit-content;
+    padding:10px;
+    width:250px;
+    opacity:0,5;
+}

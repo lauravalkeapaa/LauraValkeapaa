@@ -1,0 +1,71 @@
+h2{
+color:deeppink;
+font-size: 16px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: underline;
+}
+h1, .redtext{
+    color: firebrick;
+    font-size: 20px;
+    text-decoration:underline;
+
+}
+#error {
+background-color: rgb(245, 196, 196);
+color: rgb(41, 25, 9);
+}
+
+span, strogn, em {
+    background-color: sienna;
+    border-bottom: 1px;
+
+}
+p::first-letter{
+    color: saddlebrown;
+}
+article > p {
+
+    background-color: tomato;
+}
+
+.notebox {
+    border: 5px solid rgb(182, 136, 136);
+padding: .5em; 
+width: fit-content;
+}
+.notebox.warning {
+    border: 5px solid rgb(88, 63, 63);
+    font-weight: bold;
+}
+.notebox.danger {
+    background-color: rgb(209, 180, 127);
+}
+header{
+ background-color: rosybrown;
+ width: fit-content;
+}
+mytitle {
+    background-color: sandybrown;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(173, 72, 72);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(182, 116, 134);
+    text-decoration: line-through;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(97, 58, 89);
+  }
