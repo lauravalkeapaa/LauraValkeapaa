@@ -4,7 +4,6 @@ body {
     font-size: 16px;
     color:white;
 }
-
 h1 {
     color: #d85151;
     font-size: 16px;
@@ -13,25 +12,20 @@ h1 {
     width: fit-content;
     margin:0 auto
 }
-
 a:link {
     color: #d85151;
-  }
-  
-  a:visited {
+}
+a:visited {
     color: #d85151;
     text-decoration: line-through;
-  }
-  
-  a:hover {
+}
+a:hover {
     color: rgb(100, 114, 223);
     text-decoration: underline;
-  }
-  
-  a:active {
+}
+a:active {
     color: #d85151;
-  }
-
+}
 img {
     color: #d85151;
     border: 1px solid #d85151;
