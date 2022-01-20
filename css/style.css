@@ -27,10 +27,11 @@ a:active {
     color: #d85151;
 }
 img {
+    opacity: 0.5;
     color: #d85151;
     border: 1px solid #d85151;
     width: fit-content;
-    padding:10px;
-    width:250px;
-    opacity:0,5;
+    padding: 10px;
+    width: 250px;
+    
 }
