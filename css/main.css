@@ -17,6 +17,7 @@ font-size: 25px;
 table {
 font-size: 15px;
 background-color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 0, 0);
 }
 nav {
 background-color: rgb(31, 30, 30);
