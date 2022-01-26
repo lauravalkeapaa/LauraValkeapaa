@@ -2,14 +2,14 @@ body {
     background-color: rgb(31, 30, 30);
 }
 div {
-background-color: rgb(235, 193, 193);
-color: rgb(0, 0, 0);
+background-color: rgb(241, 206, 206);
+color: rgb(31, 30, 30);
 }
 header {
 color: #fafafa;
 font-size: 60px;
 text-align: center;
-background-color: rgb(163, 113, 93);
+background-color: rgb(163, 119, 93);
 }
 h1 {
 font-size: 25px;
@@ -17,14 +17,14 @@ font-size: 25px;
 table {
 font-size: 15px;
 background-color: rgb(255, 255, 255);
-border: 1px solid rgb(0, 0, 0);
+border: 1px solid rgb(255, 255, 255);
 }
 nav {
 font-size: 18px;
 }
 footer {
 font-size: 13px;
-color: rgb(2, 2, 2);    
+color: rgb(31, 30, 30);    
 }
 form {
 margin: 0 auto;
@@ -46,11 +46,11 @@ textarea {
 font: 1em sans-serif;
 width: 300px;
 box-sizing: border-box;
-border: 1px solid rgb(0, 0, 0);
+border: 1px solid rgb(241, 206, 206);
 }
 input:focus,
 textarea:focus {
-border-color: #000;
+border-color: rgb(31, 30, 30);
 }
 textarea {
 vertical-align: top;
