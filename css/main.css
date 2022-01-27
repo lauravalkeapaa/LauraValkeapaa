@@ -1,6 +1,12 @@
 body {
-    background-color: rgb(241, 206, 206);
+    background-color: rgb(41, 41, 41);
 }
+
+.col {
+
+background-color:  rgb(255, 255, 255);
+}
+
 div {
 background-color: rgb(255, 255, 255);
 color: rgb(31, 30, 30);
@@ -9,7 +15,7 @@ header {
 color: #fafafa;
 font-size: 60px;
 text-align: center;
-background-color: rgb(163, 119, 93);
+background-color: rgb(158, 120, 95);
 }
 h1 {
 font-size: 25px;
