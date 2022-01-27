@@ -111,7 +111,15 @@
         Parturi-kampaamoissa voit aina luottaa laatuun, taitaviin käsiin ja ystävälliseen palveluun. 
         Tutustu sinua lähimpänä sijaitsevaan parturi-kampaamoon ja varaa aikasi jo tänään!</p>
         
-        <img src=images/parturi.jpg alt="kampaamo" height="320" width="520">
+
+        <a href="#">
+          <img srcset="images/parturi400.jpg 400w,
+              images/parturi120.jpg 120w"
+              sizes="(max-widt: 400px) 120 px,
+              400px"
+              src="images/parturi120.jpg"
+              alt="parturi-kampaamo">
+        </a>
         
         <h1>PARTURI-KAMPAAMOON ON HELPPO TULLA</h1>
         <p>Parturi-kampaamosta saat aina sinulle sopivinta parturi-kampaamopalvelua: nopeat leikkaukset 
@@ -127,7 +135,7 @@
         <br>
         <div class="mb-3">
           <label for="name" class="form-label">Koko nimi</label><br>
-          <input type="text" class="form-controll" id="name" placeholder="Etunimi Sukunimi">
+          <input type="text" class="form-control" id="name" placeholder="Etunimi Sukunimi">
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Sähköpostiosoite</label>
