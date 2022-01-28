@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+  }
+
+  header, footer {
+    background: rgb(248, 169, 169);
+    height: 100px;
+  }
+
+aside {
+  width: 10%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-style: normal;
+  font-size: large;
+  background-color: rgb(255, 255, 255);
+}
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 5px;
+    margin: 5px;
+    background: rgb(174, 226, 192);
+    flex: 50px;
+
+  }
+  section {
+     display:flex; 
+     flex-direction: column;
+     flex-wrap: wrap;
+  }
+
+  p {
+
+    font-weight: bold;
+  }
