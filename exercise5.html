@@ -32,8 +32,7 @@
   
   
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- New logo ja margin left lisätty-->
-  <img src="images/sakset.jpg" width="40" height="40" style="margin-left: 20px;" alt="sakset">
+  <img src="images/sakset40.jpg" style="margin-left: 20px;" alt="sakset">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -58,53 +57,80 @@
         <br>
     
         <table style="width:100%">
-        <tr>
-        <th>Parturipalvelut</th>
-        </tr>
-        <td>Miesten hiustenleikkaus</td>
-        <td>34-47€</td>
-        </tr>
-        <tr>
-        <td>Parranmuotoilu</td>
-        <td>13-22€</td>
-        </tr>
-
-        <tr>
-        <th>Lapset</th>
-        </tr>
-        <td>Hiustenleikkaus 0-7 v</td>
-        <td>27€</td>
-        </tr>
-        <tr>
-        <td>Hiustenleikkaus 8-12 v</td>
-        <td>34€</td>
-        </tr>
+          <tr>
+            <th>Parturipalvelut</th>
+            <th>Hinta</th>
+            
+          </tr>
+          <tr>
+            <td>Miesten hiustenleikkaus</td>
+            <td>34-47€</td>
            
-        <tr>
-        <th>Kampaamopalvelut</th>
-        </tr>
-        <td>Tasaleikkaus</td>
-        <td>34€</td>
-        </tr>
-        <tr>
-        <td>Mallinmuutosleikkaus</td>
-        <td>69€</td>
-        </tr>
-        <tr>
-        <td>Hemmottelupaketti</td>
-        <td>74€</td>  
-        </tr>
-                
-        <tr>
-        <th>Ripset ja kulmat</th>
-        </tr>
-        <td>Kulmien värjäys ja muotoilu</td>
-        <td>29€</td>
-        </tr>
-        <tr>
-        <td>Ripsien värjäys</td>
-        <td>29€</td>
-        </tr>
+          </tr>
+          <tr>
+            <td>Parranmuotoilu</td>
+            <td>13-22€</td>
+        
+          </tr>
+        </table>
+<br>
+        <table style="width:100%">
+          <tr>
+            <th>Lapset</th>
+            <th>Hinta</th>
+            
+          </tr>
+          <tr>
+            <td>Hiustenleikkaus 0-7v</td>
+            <td>27€</td>
+           
+          </tr>
+          <tr>
+            <td>Hiustenleikkaus 8-12v</td>
+            <td>34€</td>
+        
+          </tr>
+        </table>
+
+        <br>
+
+        <table style="width:100%">
+          <tr>
+            <th>Kampaamopalvelut</th>
+            <th>Hinta</th>
+            
+          </tr>
+          <tr>
+            <td>Tasaleikkaus</td>
+            <td>27€</td>
+           
+          </tr>
+          <tr>
+            <td>Mallinmuutosleikkaus</td>
+            <td>69€</td>
+        
+          </tr>
+        </table>
+
+        
+        <br>
+
+        <table style="width:95%">
+          <tr>
+            <th>Ripset ja kulmat</th>
+            <th>Hinta</th>
+            
+          </tr>
+          <tr>
+            <td>Kulmien värjäys ja muotoilu</td>
+            <td>29€</td>
+           
+          </tr>
+          <tr>
+            <td>Ripsien värjäys</td>
+            <td>29€</td>
+        
+          </tr>
         </table>
 
 
@@ -117,14 +143,13 @@
         Tutustu sinua lähimpänä sijaitsevaan parturi-kampaamoon ja varaa aikasi jo tänään!</p>
         
 
-        <a href="#">
-          <img srcset="images/black.jpg 300w,
-              images/black120.jpg 120w"
-              sizes="(max-widt: 300px) 120 px,
-              300px"
-              src="images/black120.jpg"
+          <img srcset="images/black.jpg 300,
+              images/black120.jpg 120"
+              sizes="(max-widt: 300) 120,
+              300"
+              src="images/black.jpg"
               alt="parturi-kampaamo">
-        </a>
+       
         
         <h1>PARTURI-KAMPAAMOON ON HELPPO TULLA</h1>
         <p>Parturi-kampaamosta saat aina sinulle sopivinta parturi-kampaamopalvelua: nopeat leikkaukset 
@@ -140,15 +165,15 @@
         <br>
         <div class="mb-3">
           <label for="name" class="form-label">Koko nimi</label><br>
-          <input type="text" class="form-control" id="name" placeholder="Etunimi Sukunimi">
+          <input type="text" class="form-control" id="name" placeholder="">
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Sähköpostiosoite</label>
-            <input type="email" class="form-control" id="email" placeholder="etunimi@sukunimi.fi">
+            <input type="email" class="form-control" id="email" placeholder="">
           </div>
           <div class="mb-3">
           <label for="number" class="form-label">Puhelinnumero</label>
-          <input type="tel" class="form-control" id="number" placeholder="0507654321">
+          <input type="tel" class="form-control" id="number" placeholder="">
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Viesti</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Kirjoita tähän" rows="3"></textarea>
@@ -163,12 +188,13 @@
 
 
 
-<footer style="position: static; top: 100px left 0; bottom: 0; width: 100%;">
+<footer style="position: static; bottom: 0; width: 100%;">
   
 
   <div class="container p-4">
   <div class="row">
   <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="background-color: rgb(255, 255, 255);">
+    </div>
   
   <address>
   Hämeenlinnankatu 1<br>
