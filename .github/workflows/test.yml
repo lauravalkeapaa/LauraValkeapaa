@@ -9,7 +9,7 @@ jobs:
         run: echo "Hello World"
       - name: run multiple commands
         run:  | 
-        echo "Hello World" # The first command that prints "Hello World"
-        echo "This is Laura" # The second command that prints "This is Laura"
+         echo "Hello World" # The first command that prints "Hello World"
+         echo "This is Laura" # The second command that prints "This is Laura"
       
                 
